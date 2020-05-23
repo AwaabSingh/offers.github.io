@@ -1,0 +1,90 @@
+li {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+    
+    
+ }
+ 
+
+ul li  {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.4;
+    width: 300px;
+    background: #fff;
+    text-align:  center;
+    font-size: 16px;
+    float: left;
+    margin: 50px;
+    border-radius: 15px;
+    }
+
+
+    @media (max-width: 500px) {
+        ul li {
+            width: 150px;
+            padding: 10% 20%;
+            margin: 50px 0 20px; 
+            height: 30px;
+        }
+        
+        
+     }
+    
+     body {
+        background-image: linear-gradient(125deg, #2c3e50, #27ae60 , #2980b9, #e74c3c, #8e44ad);
+        background-size: 400%;
+        animation: bganimation 15s infinite;
+    }
+
+    @keyframes bganimation {
+        0% {
+            background-position:0% 50% ;
+        }
+        50% {
+            background-position:100% 50% ;
+        }
+        100% {
+            background-position:0% 50% ;
+        }
+    }
+
+    a {
+        width: 50px;
+         height: 30px;
+        background: w ;
+        color: rgb(123, 255, 0);
+        margin: 50px;
+        padding: 20px;
+        display: inline-block;
+        text-transform: uppercase;
+        border-radius: 50px;
+        border: 2px solid transparent;
+        transition: all 0.5s linear;
+        border: 2px soild green;
+    }
+
+    .home {
+          
+            width: 30px;
+             height: 10px;
+            background: grey;
+            color: white;
+            margin: 50px;
+            padding:10px 40px 10px 10px;      
+            display: inline-block;
+            text-transform: uppercase;
+            border-radius: 5px;
+            border: 2px solid transparent;
+            transition: all 0.5s linear;
+            border: 2px soild green;
+       
+    }
